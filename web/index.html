@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar Responsive</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <!-- Logo -->
+    <div class="navbar-logo">
+      <a href="#"><img src="logo.jpg" alt="Logo"></a>
+    </div>
+
+    <!-- Menu Links -->
+    <ul class="navbar-menu" id="navbarMenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Category</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+    <!-- Search Bar -->
+    <div class="navbar-search" id="navbarSearch">
+      <input type="text" placeholder="Search for products...">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+
+    <!-- Icons -->
+    <div class="navbar-icons">
+      <a href="#"><i class="fas fa-shopping-cart"></i></a>
+      <a href="#"><i class="fas fa-user"></i></a>
+      <a href="#"><i class="fas fa-heart"></i></a>
+    </div>
+
+    <!-- Mobile Menu Toggle -->
+    <div class="navbar-toggle" id="mobileMenu">
+      <i class="fas fa-bars" id="toggleIcon"></i>
+    </div>
+  </nav>
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-headline">Discover the Latest Trends</h1>
+      <p class="hero-tagline">Upgrade your style with our exclusive collection.</p>
+      <a href="#" class="hero-button">Shop Now</a>
+    </div>
+  </section>
+  <section class="featured-products">
+    <h2 class="section-title">Featured Products</h2>
+    <div class="product-grid">
+      <!-- Product 1 -->
+      <div class="product-card">
+        <img src="product1.jpg" alt="Product 1" class="product-image">
+        <h3 class="product-name">Product Name 1</h3>
+        <p class="product-price">$49.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="product-card">
+        <img src="product2.jpg" alt="Product 2" class="product-image">
+        <h3 class="product-name">Product Name 2</h3>
+        <p class="product-price">$59.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="product-card">
+        <img src="product3.jpeg" alt="Product 3" class="product-image">
+        <h3 class="product-name">Product Name 3</h3>
+        <p class="product-price">$39.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="product-card">
+        <img src="product4.jpg" alt="Product 4" class="product-image">
+        <h3 class="product-name">Product Name 4</h3>
+        <p class="product-price">$69.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+
+      <!-- Add more products as needed -->
+    </div>
+  </section>
+   <!-- Hair Clip Category -->
+   <section class="product-categories">
+    <h2 class="section-title">Hair Clip Category</h2>
+    <div class="category-grid">
+     
+      <div class="category-card">
+        <img src="https://product.hstatic.net/200000104263/product/screenshot_2024-08-05_174912_8943f4d6e7764e039d128f0bef34e705_grande.png" alt="Kẹp càng cua" class="category-icon">
+        <h3 class="category-name">Crab clamp</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://pos.nvncdn.com/71a8b2-3946/ps/20240629_RdbZypC42h.jpeg" alt="Kẹp mái" class="category-icon">
+        <h3 class="category-name">Roof Clip</h3>
+      </div>
+
+      <div class="category-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOTHrfBRibv0Abhdz4We4aE3Ze38jbZHiVyg&s" alt="Kẹp cài tóc" class="category-icon">
+        <h3 class="category-name">Hair clips</h3>
+      </div>
+    </div>
+  </section>
+  <!-- Review -->
+  <section class="customer-reviews">
+    <h2 class="section-title">What Our Customers Say</h2>
+    <div class="reviews-grid">
+      <!-- Review 1 -->
+      <div class="review-card">
+        <img src="avatar.jpg" alt="Customer 1" class="user-avatar">
+        <div class="star-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="feedback">"Amazing products and fast delivery! Highly recommended."</p>
+        <p class="user-name">- John Doe</p>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <img src="avatar.jpg" alt="Customer 2" class="user-avatar">
+        <div class="star-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+        </div>
+        <p class="feedback">"Great quality and excellent customer service."</p>
+        <p class="user-name">- Jane Smith</p>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <img src="avatar.jpg" alt="Customer 3" class="user-avatar">
+        <div class="star-rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p class="feedback">"Love the designs! Will definitely shop again."</p>
+        <p class="user-name">- Mike Johnson</p>
+      </div>
+
+      <!-- Add more reviews as needed -->
+    </div>
+  </section>
+  <!-- Sale -->
+  <section class="special-offers">
+    <div class="offer-banner">
+      <div class="offer-content">
+        <h2 class="offer-headline">Flash Sale!</h2>
+        <p class="offer-tagline">Huge discounts on selected items. Limited time only!</p>
+        <div class="pricing">
+          <span class="original-price">$99.99</span>
+          <span class="discounted-price">$49.99</span>
+          <span class="discount-percentage">50% OFF</span>
+        </div>
+        <div class="countdown-timer">
+          <span id="days">00</span>d :
+          <span id="hours">00</span>h :
+          <span id="minutes">00</span>m :
+          <span id="seconds">00</span>s
+        </div>
+        <a href="#" class="shop-now-button">Shop Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <!-- Footer Links -->
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Return Policy</a>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="social-media">
+        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+      <!-- Copyright Notice -->
+      <div class="copyright">
+        &copy; 2023 Your E-commerce Store. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
